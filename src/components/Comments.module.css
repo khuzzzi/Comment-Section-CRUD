@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.replyContainer {
+    margin-top: 1rem; /* Adjust as needed */
+  }
+  
+html, body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f5f6fa;
+}
+
+.commentContainer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 50vw;
+    background-color: #ffffff;
+    margin-top: 3vh;
+    border-radius: 7px;
+    padding: 1vh 1vw;
+    margin-left: 6vw;
+}
+
+.left {
+    background-color: #f5f6fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    margin-right: 2vw;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+    width: 100%;
+}
+
+button {
+    border: none;
+    padding: .5vh 0.5vw;
+    background-color: #f5f6fa;
+    cursor: pointer;
+}
+
+.para {
+    font-family: 'Rubik', sans-serif;
+    color: #5157b4;
+    font-size: 1.5vw;
+}
+
+.imagecontainer {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 2vh;
+}
+
+.upper {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.image {
+    height: 4vh;
+    width: 4vh;
+}
+
+.name {
+    font-family: 'Rubik';
+    font-size: 1.2vw;
+    font-weight: 500;
+    color: hsl(212, 24%, 26%);
+}
+
+.month {
+    font-family: 'Rubik';
+    font-size: 1vw;
+    color: hsl(211, 10%, 45%);
+}
+
+.comment {
+    font-family: 'Rubik';
+    font-size: 1.1vw;
+    color: hsl(211, 10%, 45%);
+    margin-top: 1vh;
+    width: 38vw;
+}
+
+.reply {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+.reply button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.reply img {
+    height: 2vh;
+    margin-right: 0.5vw;
+}
+
+.reply p {
+    font-family: 'Rubik', sans-serif;
+    color: hsl(211, 10%, 45%);
+    font-size: 1.1vw;
+    margin: 0;
+}

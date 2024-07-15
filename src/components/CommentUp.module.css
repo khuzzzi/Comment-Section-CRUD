@@ -1,0 +1,58 @@
+.container {
+    height: 15vh;
+    width: 52vw;
+    margin-top: 4vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.left {
+    display: flex;
+}
+
+.left img {
+    height: 10vh;
+    width: 7vw;
+    padding: 2vh 2vw;
+}
+
+.right {
+    display: flex;
+}
+
+.cmntarea input {
+    height: 10vh;
+    width: 35vw;
+    margin-top: 2vh;
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 15px;
+    padding-bottom: 0;
+    line-height: 1.2; /* Adjust line-height if necessary */
+    vertical-align: top; /* Align text to the top */
+    box-sizing: border-box; /* Include padding in the element's total height */
+    font-family: "Rubik";
+    font-size: 1.2vw;
+}
+
+.cmntarea input:focus {
+    outline: 1px solid rgba(83, 88, 182, 0.3); /* Very light outline */
+}
+
+.right button {
+    margin-top: 2vh;
+    margin-left: 1vw;
+    padding: 2.2vh 2.3vw;
+    background-color: #5358b6;
+    border-radius: 10px;
+    color: white;
+    font-family: "Rubik";
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1vw;
+}
+
+.right button:hover {
+    background-color: #c4c6ef;
+}

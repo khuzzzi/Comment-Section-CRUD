@@ -1,0 +1,139 @@
+.container {
+    height: 30vh;
+    width: 50vw;
+    background-color: white;
+    margin-top: 2vh;
+    border-radius: 10px;
+    display: flex;
+}
+
+.plusminuscontainer {
+    height: 15vh;
+    width: 2vw;
+    position: relative;
+    top: 10%;
+    margin-left: 2vw;
+    background-color: #f5f6fa;
+    margin-right: 1vw;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Rubik";
+    color: #5258b4;
+    font-weight: 800;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.upper {
+    display: flex;
+    gap: 10px;
+    width: 30vw;
+    height: 6vh;
+    align-items: center;
+}
+
+.upper img {
+    height: 4vh;
+    width: 2vw;
+    margin-top: 2vh;
+}
+
+.badge {
+    height: 3.3vh;
+    width: 3vw;
+    background-color: #5258b4;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0.2vw;
+}
+
+.para {
+    color: white;
+    font-family: "Rubik";
+}
+
+.name, .date {
+    margin-top: 2vh;
+    font-family: "Rubik";
+}
+
+.name {
+    color: hsl(216, 44%, 12%);
+    font-weight: 500;
+}
+
+.date {
+    width: 8vw;
+    margin-left: 0.9vw;
+    font-weight: 400;
+    color: #b0b4b8;
+}
+
+.editingsection {
+    display: flex;
+    flex-direction: row;
+    
+    width: 2vw;
+}
+
+.editingsection button {
+    background-color: transparent;
+    margin-left: 3vw;
+    font-family: "Rubik";
+}
+
+.delete {
+    color: red;
+    font-weight: 500;
+}
+
+.edit {
+    color: #5358b6;
+    font-weight: 500;
+}
+
+.editingsection img {
+    height: 3vh;
+    width: 1.4vw;
+}
+
+.lower input {
+    margin-top: 2vh;
+    height: 12vh;
+    width: 90%;
+    margin-left: 1vw;
+    border-radius: 10px;
+    border: 1px solid rgb(176, 175, 175);
+    font-family: "Rubik";
+    font-size: 1.2vw;
+    padding: 0 1vw;
+}
+
+.lower p {
+    font-family: "Rubik";
+    font-weight: 300;
+    font-size: 1.5vw;
+    margin-top: 2vh;
+}
+
+.btn {
+    margin-top: 2vh;
+    margin-left: 1vw;
+    padding: 2.2vh 2.3vw;
+    background-color: #5358b6;
+    border-radius: 10px;
+    color: white;
+    font-family: "Rubik";
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1vw;
+}

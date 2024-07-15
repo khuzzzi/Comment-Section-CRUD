@@ -1,0 +1,35 @@
+.replyCommentContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #f9f9f9;
+    border-radius: 7px;
+    padding: 1vh 1vw;
+    margin-top: 1vh;
+}
+
+.replyCommentInput {
+    width: 100%;
+    height: 12vh;
+    padding: 0.5vh 1vw;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    font-family: 'Rubik', sans-serif;
+}
+
+.replyCommentContainer:focus-within {
+    border-color: blue;
+}
+
+.replyCommentButton {
+    align-self: flex-end;
+    padding: 1.5vh 1.5vw;
+    background-color: #5157b4;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 1vh;
+    font-size: 1.2vw;
+    font-family: 'Rubik', sans-serif;
+}
